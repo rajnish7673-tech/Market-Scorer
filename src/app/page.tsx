@@ -217,7 +217,7 @@ export default function Home() {
             />
             {query && (
               <button
-                onClick={() => { setQuery(''); setResults([]); setShowResults(false); setAnalysis(null) }}
+                onClick={() => { setQuery(''); setResults([]); setShowResults(false) }}
                 style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--muted)', padding: 0 }}
               >
                 <XCircle size={16} />
